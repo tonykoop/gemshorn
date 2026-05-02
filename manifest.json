@@ -1,0 +1,41 @@
+{
+  "generated": "2026-05-02",
+  "packet": "/mnt/c/Users/Tony/Documents/GitHub/gemshorn",
+  "family_ids": [
+    "GEM-SC-F3",
+    "GEM-SC-C4",
+    "GEM-SC-F4",
+    "GEM-SC-C5",
+    "GEM-SC-F5"
+  ],
+  "shrinkage_assumption": 0.12,
+  "base_midi": 72,
+  "base_frequency_hz": 523.2511306011972,
+  "sources": [
+    {
+      "label": "Horace Fitzpatrick, The Gemshorn: a Reconstruction",
+      "url": "https://www.cambridge.org/core/journals/proceedings-of-the-royal-musical-association/article/gemshorn-a-reconstruction/0AD60F0FE7748111C8455FA2F4DD1CC3",
+      "notes": "Defines the gemshorn as a fipple instrument made from animal horn and calls out the stopped inverted cone bore. Used as the boundary-condition anchor."
+    },
+    {
+      "label": "Early Music Muse, The gemshorn: a short history",
+      "url": "https://earlymusicmuse.com/gemshorn/",
+      "notes": "Summarizes the open-end fipple construction, four-hole historical evidence, and the 1455 clay gemshorn-like find. Used for authenticity notes."
+    },
+    {
+      "label": "Cincinnati Early Music, Medieval Gemshorn",
+      "url": "https://cincinnatiearlymusic.com/gemshorn.html",
+      "notes": "Contrasts historical four-hole evidence with modern recorder-like reconstructions and consort families. Used to separate historical and modern lines."
+    },
+    {
+      "label": "Baltimore Recorders, Information about the Gemshorn",
+      "url": "https://www.baltimorerecorders.org/gemshorns.html",
+      "notes": "Describes front holes, thumb hole, whistle/fipple, tuning ring, and the lack of an outlet other than whistle and fingerholes. Used for construction details."
+    },
+    {
+      "label": "Institut fuer Musikforschung Wuerzburg, Lo 29-31 Gemshoerner",
+      "url": "https://www.musikwissenschaft.uni-wuerzburg.de/musikinstrumente/bestand/inventarliste/lo29-31-gemshoerner/",
+      "notes": "Gives measured modern HFK gemshorns in g, d1, and g1 and cautions that modern gemshorns are reconstruction products. Used as dimensional sanity check."
+    }
+  ]
+}

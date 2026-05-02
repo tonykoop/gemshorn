@@ -1,0 +1,6 @@
+instrument_id,key,hole,face,target_interval_semitones,previous_interval_semitones,position_pct_from_labium,fired_position_from_labium_in,master_position_from_labium_in,fired_diameter_in,greenware_drill_start_in,incremental_conductance_in,hole_leff_in,note
+GEM-HIST-G4,G4,F1,front distal,2,0,0.43,5.3093,6.0333,0.1594,0.1811,0.0888,0.2246,whole-tone hole
+GEM-HIST-G4,G4,F2,front,4,2,0.34,4.1981,4.7705,0.1828,0.2077,0.1119,0.2345,third hole
+GEM-HIST-G4,G4,F3,front,5,4,0.27,3.3338,3.7884,0.1345,0.1529,0.0664,0.214,fourth hole; omit or wax for stricter 3-front interpretation
+GEM-HIST-G4,G4,F4,front proximal,7,5,0.205,2.5312,2.8764,0.2257,0.2564,0.1583,0.2528,fifth hole
+GEM-HIST-G4,G4,T1,back thumb,12,7,0.205,2.5312,2.8764,0.5445,0.6187,0.5997,0.3883,octave-area vent; tune empirically

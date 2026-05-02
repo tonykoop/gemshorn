@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="620" viewBox="0 0 980 620">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="24" y="34" font-family="Arial, sans-serif" font-size="22" font-weight="700">Gemshorn Slip-Cast Family Scale</text>
+  <text x="720" y="596" font-family="Arial, sans-serif" font-size="12">Generated 2026-05-02 | Units: inches</text>
+
+  <line x1="80" y1="555" x2="900" y2="555" stroke="#111" stroke-width="1"/>
+  <text x="80" y="575" font-family="Arial" font-size="12">Scale bar: 0 to 30 in fired centerline length</text>
+  <line x1="80" y1="545" x2="530" y2="545" stroke="#111" stroke-width="3"/>
+  <text x="80" y="540" font-family="Arial" font-size="12">0</text><text x="520" y="540" font-family="Arial" font-size="12">30 in</text>
+  <path d="M 120 95 C 265.5230748416477 74.0986162775703, 419.361753959961 81.06574418504687, 535.7802138332792 93.38182835697319" fill="none" stroke="#995c2d" stroke-width="16.2" stroke-linecap="round"/>
+  <path d="M 120 95 C 265.5230748416477 74.0986162775703, 419.361753959961 81.06574418504687, 535.7802138332792 93.38182835697319" fill="none" stroke="#111111" stroke-width="1.2" stroke-dasharray="4 5"/>
+  <circle cx="120" cy="95" r="34.8" fill="none" stroke="#111" stroke-width="1.2"/>
+  <text x="24" y="100" font-family="Arial" font-size="14" font-weight="700">GEM-SC-F3</text>
+  <text x="553.8" y="99.0" font-family="Arial" font-size="13">F3, fired L 27.72 in, master L 31.50 in</text>
+  <path d="M 120 187 C 217.125 173.05, 319.79999999999995 177.7, 397.5 185.92" fill="none" stroke="#995c2d" stroke-width="10.8" stroke-linecap="round"/>
+  <path d="M 120 187 C 217.125 173.05, 319.79999999999995 177.7, 397.5 185.92" fill="none" stroke="#111111" stroke-width="1.2" stroke-dasharray="4 5"/>
+  <circle cx="120" cy="187" r="23.2" fill="none" stroke="#111" stroke-width="1.2"/>
+  <text x="24" y="192" font-family="Arial" font-size="14" font-weight="700">GEM-SC-C4</text>
+  <text x="415.5" y="191.0" font-family="Arial" font-size="13">C4, fired L 18.50 in, master L 21.02 in</text>
+  <path d="M 120 279 C 192.76153742082386 268.54930813878514, 269.6808769799805 272.0328720925234, 327.8901069166396 278.1909141784866" fill="none" stroke="#995c2d" stroke-width="8.1" stroke-linecap="round"/>
+  <path d="M 120 279 C 192.76153742082386 268.54930813878514, 269.6808769799805 272.0328720925234, 327.8901069166396 278.1909141784866" fill="none" stroke="#111111" stroke-width="1.2" stroke-dasharray="4 5"/>
+  <circle cx="120" cy="279" r="17.4" fill="none" stroke="#111" stroke-width="1.2"/>
+  <text x="24" y="284" font-family="Arial" font-size="14" font-weight="700">GEM-SC-F4</text>
+  <text x="345.9" y="283.0" font-family="Arial" font-size="13">F4, fired L 13.86 in, master L 15.75 in</text>
+  <path d="M 120 371 C 168.5625 364.025, 219.89999999999998 366.35, 258.75 370.46" fill="none" stroke="#995c2d" stroke-width="5.4" stroke-linecap="round"/>
+  <path d="M 120 371 C 168.5625 364.025, 219.89999999999998 366.35, 258.75 370.46" fill="none" stroke="#111111" stroke-width="1.2" stroke-dasharray="4 5"/>
+  <circle cx="120" cy="371" r="11.6" fill="none" stroke="#111" stroke-width="1.2"/>
+  <text x="24" y="376" font-family="Arial" font-size="14" font-weight="700">GEM-SC-C5</text>
+  <text x="276.8" y="375.0" font-family="Arial" font-size="13">C5, fired L 9.25 in, master L 10.51 in</text>
+  <path d="M 120 463 C 156.38076871041193 457.77465406939257, 194.84043848999025 459.51643604626173, 223.9450534583198 462.59545708924327" fill="none" stroke="#995c2d" stroke-width="4.0" stroke-linecap="round"/>
+  <path d="M 120 463 C 156.38076871041193 457.77465406939257, 194.84043848999025 459.51643604626173, 223.9450534583198 462.59545708924327" fill="none" stroke="#111111" stroke-width="1.2" stroke-dasharray="4 5"/>
+  <circle cx="120" cy="463" r="8.7" fill="none" stroke="#111" stroke-width="1.2"/>
+  <text x="24" y="468" font-family="Arial" font-size="14" font-weight="700">GEM-SC-F5</text>
+  <text x="241.9" y="467.0" font-family="Arial" font-size="13">F5, fired L 6.93 in, master L 7.87 in</text>
+</svg>

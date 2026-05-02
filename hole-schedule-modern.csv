@@ -1,0 +1,41 @@
+instrument_id,key,hole,face,target_interval_semitones,previous_interval_semitones,position_pct_from_labium,fired_position_from_labium_in,master_position_from_labium_in,fired_diameter_in,greenware_drill_start_in,incremental_conductance_in,hole_leff_in,note
+GEM-SC-F3,F3,H1,front distal,2,0,0.479,13.2772,15.0878,0.3409,0.3873,0.2371,0.3849,open first for scale degree 2
+GEM-SC-F3,F3,H2,front,4,2,0.424,11.7527,13.3554,0.3936,0.4473,0.2987,0.4073,open second for scale degree 3
+GEM-SC-F3,F3,H3,front,5,4,0.369,10.2282,11.6229,0.2857,0.3246,0.1773,0.3614,open third for scale degree 4
+GEM-SC-F3,F3,H4,front,7,5,0.316,8.7591,9.9535,0.4914,0.5584,0.4225,0.4488,open fourth for scale degree 5
+GEM-SC-F3,F3,H5,front,9,7,0.263,7.29,8.2841,0.5723,0.6503,0.5323,0.4832,open fifth for scale degree 6
+GEM-SC-F3,F3,H6,front,11,9,0.21,5.8209,6.6147,0.6692,0.7604,0.6706,0.5244,open sixth for scale degree 7
+GEM-SC-F3,F3,H7,front proximal,12,11,0.157,4.3518,4.9453,0.4727,0.5372,0.3981,0.4409,open seventh for octave
+GEM-SC-F3,F3,T1,back thumb,14,12,0.157,4.3518,4.9453,0.853,0.9693,0.9484,0.6025,opens to ninth or acts as high-note/tuning vent
+GEM-SC-C4,C4,H1,front distal,2,0,0.479,8.8615,10.0699,0.2347,0.2667,0.1425,0.3038,open first for scale degree 2
+GEM-SC-C4,C4,H2,front,4,2,0.424,7.844,8.9136,0.2699,0.3067,0.1795,0.3187,open second for scale degree 3
+GEM-SC-C4,C4,H3,front,5,4,0.369,6.8265,7.7574,0.1977,0.2246,0.1066,0.288,open third for scale degree 4
+GEM-SC-C4,C4,H4,front,7,5,0.316,5.846,6.6432,0.3345,0.3801,0.2538,0.3461,open fourth for scale degree 5
+GEM-SC-C4,C4,H5,front,9,7,0.263,4.8655,5.529,0.3875,0.4403,0.3198,0.3687,open fifth for scale degree 6
+GEM-SC-C4,C4,H6,front,11,9,0.21,3.885,4.4148,0.4504,0.5118,0.403,0.3954,open sixth for scale degree 7
+GEM-SC-C4,C4,H7,front proximal,12,11,0.157,2.9045,3.3006,0.3222,0.3662,0.2392,0.3409,open seventh for octave
+GEM-SC-C4,C4,T1,back thumb,14,12,0.157,2.9045,3.3006,0.5687,0.6462,0.5699,0.4457,opens to ninth or acts as high-note/tuning vent
+GEM-SC-F4,F4,H1,front distal,2,0,0.479,6.6386,7.5439,0.178,0.2023,0.1017,0.2447,open first for scale degree 2
+GEM-SC-F4,F4,H2,front,4,2,0.424,5.8764,6.6777,0.2043,0.2322,0.1281,0.2559,open second for scale degree 3
+GEM-SC-F4,F4,H3,front,5,4,0.369,5.1141,5.8115,0.1502,0.1707,0.0761,0.2329,open third for scale degree 4
+GEM-SC-F4,F4,H4,front,7,5,0.316,4.3796,4.9768,0.2525,0.287,0.1812,0.2764,open fourth for scale degree 5
+GEM-SC-F4,F4,H5,front,9,7,0.263,3.645,4.1421,0.2919,0.3317,0.2283,0.2931,open fifth for scale degree 6
+GEM-SC-F4,F4,H6,front,11,9,0.21,2.9105,3.3073,0.3386,0.3847,0.2877,0.313,open sixth for scale degree 7
+GEM-SC-F4,F4,H7,front proximal,12,11,0.157,2.1759,2.4726,0.2434,0.2766,0.1708,0.2725,open seventh for octave
+GEM-SC-F4,F4,T1,back thumb,14,12,0.157,2.1759,2.4726,0.4258,0.4839,0.4068,0.3501,opens to ninth or acts as high-note/tuning vent
+GEM-SC-C5,C5,H1,front distal,2,0,0.479,4.4307,5.0349,0.1208,0.1372,0.0632,0.1813,open first for scale degree 2
+GEM-SC-C5,C5,H2,front,4,2,0.424,3.922,4.4568,0.1383,0.1572,0.0796,0.1888,open second for scale degree 3
+GEM-SC-C5,C5,H3,front,5,4,0.369,3.4133,3.8787,0.1021,0.1161,0.0473,0.1734,open third for scale degree 4
+GEM-SC-C5,C5,H4,front,7,5,0.316,2.923,3.3216,0.1703,0.1935,0.1126,0.2024,open fourth for scale degree 5
+GEM-SC-C5,C5,H5,front,9,7,0.263,2.4327,2.7645,0.1963,0.2231,0.1418,0.2134,open fifth for scale degree 6
+GEM-SC-C5,C5,H6,front,11,9,0.21,1.9425,2.2074,0.227,0.258,0.1787,0.2265,open sixth for scale degree 7
+GEM-SC-C5,C5,H7,front proximal,12,11,0.157,1.4523,1.6503,0.1643,0.1867,0.1061,0.1998,open seventh for octave
+GEM-SC-C5,C5,T1,back thumb,14,12,0.157,1.4523,1.6503,0.284,0.3228,0.2527,0.2507,opens to ninth or acts as high-note/tuning vent
+GEM-SC-F5,F5,H1,front distal,2,0,0.479,3.3193,3.7719,0.0917,0.1042,0.0443,0.149,open first for scale degree 2
+GEM-SC-F5,F5,H2,front,4,2,0.424,2.9382,3.3388,0.1048,0.1191,0.0558,0.1545,open second for scale degree 3
+GEM-SC-F5,F5,H3,front,5,4,0.369,2.557,2.9057,0.0777,0.0883,0.0331,0.143,open third for scale degree 4
+GEM-SC-F5,F5,H4,front,7,5,0.316,2.1898,2.4884,0.1287,0.1462,0.079,0.1647,open fourth for scale degree 5
+GEM-SC-F5,F5,H5,front,9,7,0.263,1.8225,2.071,0.148,0.1682,0.0995,0.1729,open fifth for scale degree 6
+GEM-SC-F5,F5,H6,front,11,9,0.21,1.4552,1.6537,0.1707,0.194,0.1254,0.1825,open sixth for scale degree 7
+GEM-SC-F5,F5,H7,front proximal,12,11,0.157,1.088,1.2363,0.1242,0.1411,0.0744,0.1628,open seventh for octave
+GEM-SC-F5,F5,T1,back thumb,14,12,0.157,1.088,1.2363,0.2127,0.2417,0.1773,0.2004,opens to ninth or acts as high-note/tuning vent

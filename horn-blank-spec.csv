@@ -1,0 +1,4 @@
+use_case,preferred_material,blank_centerline_length_in,wide_end_od_in,minimum_wall_in,tip_condition,reject_if,notes
+Historical G4 pilot,"domesticated cow, ox, goat, or sheep horn",13.35 to 16.35,1.76 to 2.59,0.070 near wide end after cleaning,closed or plug-friendly,"cracked, delaminated, moldy core, thin/transparent wall at voicing, severe twist under hands",Buy several blanks; tune by measured volume and final holes
+Small high historical pilot,goat or sheep horn,7.5 to 10.5,1.2 to 1.8,0.055 near wide end after cleaning,closed,too small for removable block or stable windway,Good fast test for fipple and hole-count behavior
+Lower/alto horn pilot,cow or ox horn,13.5 to 18.0,1.8 to 3.0,0.080 near wide end after cleaning,closed or permanently pluggable,wide end too oval to seal with a block,Likely more playable than very small horns for first tuning tests

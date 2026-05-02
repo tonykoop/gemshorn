@@ -1,0 +1,9 @@
+item,part,qty,material_spec,make_buy,drawing_ref,notes
+BOM-000,Natural horn blank,3 blanks for first authentic prototype,"Domesticated cow/ox/goat/sheep horn, closed tip, no cracks",buy,horn-blank-spec.csv,Authentic build path; avoid endangered/wild chamois sourcing
+BOM-001,Slip-cast ceramic body,1 per instrument,"White stoneware or porcelain casting slip, measured shrinkage",make,drawings/gemshorn-body-section.svg,Use family-spec.csv for size-specific fired and master dimensions
+BOM-002,Two-part plaster mold,1 per size,Pottery plaster or equivalent,make,drawings/gemshorn-mold-schematic.svg,Add registration keys and pour mouth
+BOM-003,Master pattern,1 per size,"3D printed resin/PLA, tooling board, or sealed wood",make or outsource,cad/gemshorn_family.scad,Scale for shrinkage and seal before plaster
+BOM-004,Fipple/block,1 per instrument,"Cedar, maple, pear, plaster, or stable hardwood",make,drawings/gemshorn-voicing-detail.svg,Removable block recommended for tuning and service
+BOM-005,Seal wrap/gasket,1 set per instrument,"Leather, cork, beeswax, or thin silicone gasket",buy,drawings/gemshorn-voicing-detail.svg,Keep mouth-contact material safe and replaceable
+BOM-006,Optional tuning ring/collar,1 per instrument,"Thin brass/stainless ring, leather band, or ceramic collar",buy or make,drawings/gemshorn-voicing-detail.svg,Rotates over vent to lower closed keynote
+BOM-007,Tuning and measurement kit,1 shop set,"Pin gauges, drill bits, reamers, tuner, thermometer, wax",buy,validation.csv,Required before final pitch claims
