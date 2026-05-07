@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Slip-Cast Gemshorn Family Build Packet — Tony Koop's Build Log</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="hero"><div class="hero-img" style="background:#f7f1e7 url('assets/drawings/gemshorn-family-scale.svg') center/contain no-repeat;height:360px;"></div><div class="hero-text"><h1>Slip-Cast Gemshorn Family Build Packet</h1><p>Generated: 2026-05-02
+v4 refresh: 2026-05-06</p></div></header>
+<main>
+<section><h2>What this is</h2><p>This project documents a historically informed gemshorn and a modern repeatable gemshorn family. The authentic path uses a natural horn blank with the pointed end closed and a fipple/block at the wide end. The production path uses slip-cast ceramic bodies in a C/F consort. A third path, CNC-routed split wood, gives a fast and repairable way to prototype the same vessel-flute geometry before committing to molds or scarce horn blanks.</p><p>The gemshorn behaves as a closed horn-shaped vessel flute rather than an open pipe. Pitch is controlled by chamber volume, the fipple/window, tuning vents, and the cumulative conductance of opened tone holes.</p></section>
+<section><h2>The design</h2><p>The design package separates historical authenticity from modern manufacturability. `GEM-HIST-G4` is the historically informed horn/clay pilot. `GEM-SC-C5` is the first repeatable production pilot. The family then scales outward to F/C consort sizes after measured shrinkage, cavity volume, and tuning corrections are recorded.</p><figure><object data="assets/drawings/gemshorn-body-section.svg" type="image/svg+xml" class="drawing"></object><figcaption>gemshorn-body-section</figcaption></figure>
+<figure><object data="assets/drawings/gemshorn-cnc-wood-body.svg" type="image/svg+xml" class="drawing"></object><figcaption>gemshorn-cnc-wood-body</figcaption></figure>
+<figure><object data="assets/drawings/gemshorn-family-scale.svg" type="image/svg+xml" class="drawing"></object><figcaption>gemshorn-family-scale</figcaption></figure>
+<figure><object data="assets/drawings/gemshorn-mold-schematic.svg" type="image/svg+xml" class="drawing"></object><figcaption>gemshorn-mold-schematic</figcaption></figure>
+<figure><object data="assets/drawings/gemshorn-voicing-detail.svg" type="image/svg+xml" class="drawing"></object><figcaption>gemshorn-voicing-detail</figcaption></figure>
+<figure><object data="assets/drawings/hole-layout-template.svg" type="image/svg+xml" class="drawing"></object><figcaption>hole-layout-template</figcaption></figure>
+<figure><object data="assets/drawings/visual-bom-plate.svg" type="image/svg+xml" class="drawing"></object><figcaption>visual-bom-plate</figcaption></figure></section>
+<section><h2>The build</h2><h2>Assembly Manual</h2>
+<p>Generated: 2026-05-02</p>
+<h3>Safety</h3>
+<ul><li>Wear a respirator for clay dust, plaster dust, sanding, and fired ceramic grinding.</li><li>Use wet cleanup for clay and plaster; do not sweep dry dust.</li><li>Keep plaster out of reclaim clay.</li><li>Use eye protection when drilling bisque or fired ceramic.</li><li>Use lead-free, food-safe-compatible glazes if the instrument may contact the mouth.</li></ul>
+<h3>Tools</h3>
+<ul><li>Casting slip, plaster mold, mold straps, buckets, sieve, scale, timer.</li><li>Calipers, flexible ruler, pin gauges, drill bits, tapered reamers, needle files.</li><li>Chromatic tuner or microphone/spectrum app, thermometer, hygrometer.</li><li>Hardwood for blocks, cork/leather/wax for seals, fine saw, knife, small chisels.</li><li>CNC router, dowel-pin fixture, ball end bits, clamps, and leak-test supplies for the split-wood method.</li></ul>
+<h3>Build Method Selection</h3>
+<p>See `build-methods.md` before starting.</p>
+<ul><li>Use natural horn when authenticity is the goal.</li><li>Use slip-cast ceramic when repeatability and consort scaling are the goal.</li><li>Use CNC split wood when fast iteration and repairability are the goal.</li><li>Use alternate materials only after coupon tests in `material-options.md` pass.</li></ul>
+<h3>Phase 1: Master And Mold</h3>
+<p>1. Pick a size from `family-spec.csv`.
+2. Confirm clay shrinkage with test bars.
+3. Update `gemshorn-design-table.xlsx` if shrinkage differs from the default.
+4. Make and seal the master.
+5. Build a two-part plaster mold using `mold-and-slip-casting-plan.md`.</p>
+<h3>Phase 2: Cast Body</h3>
+<p>1. Pour slip and record drain time.
+2. Release at leather hard.
+3. Clean seams, mark centerline, and confirm wall thickness at the pour opening.
+4. Drill undersize holes from `hole-schedule-modern.csv` or `hole-schedule-historical.csv`.
+5. Trim the fipple seat and window area conservatively.
+6. Slow dry to bone dry.</p>
+<h3>Phase 3: Bisque And Measure</h3>
+<p>1. Bisque fire.
+2. Measure length, wide OD, hole diameters, mass, and cavity volume.
+3. Record all measurements in `validation.csv`.
+4. Fit a temporary block and test whether the instrument speaks.</p>
+<h3>Phase 4: Voice And Tune</h3>
+<p>1. Make the windway even and low.
+2. Sharpen and stabilize the labium.
+3. Tune closed note first.
+4. Open holes gradually from low to high.
+5. Use wax to backtrack if a hole goes sharp.
+6. Record every tuning pass, temperature, and action.</p>
+<h3>Phase 5: Finish</h3>
+<p>1. Remove block before glaze unless the block is sacrificial.
+2. Mask windway, labium, hole interiors, and tuning seats.
+3. Glaze or burnish exterior.
+4. Glaze fire.
+5. Refit block, final tune, and seal mouth-contact surfaces.</p>
+<h3>CNC Split-Wood Body Method</h3>
+<p>1. Choose the C5 or G4 prototype from `build-methods.md`.
+2. Prepare two straight-grained hardwood halves from `cut-list.csv`.
+3. Face the mating surfaces and drill registration-pin holes.
+4. Route mirrored cavity halves using `cnc/wood-body-cnc-plan.md`.
+5. Engrave or mark fipple, tone-hole, and datum references.
+6. Dry-fit the body with dowels and perform the leak test in `validation.csv`.
+7. Glue the body only after the cavity volume and leak test pass.
+8. Shape the exterior, then cut the fipple/window by hand.
+9. Drill holes undersize and tune low to high.
+10. Record final volume, pitch, cents error, and finish notes in `validation.csv`.</p>
+<h3>Maintenance</h3>
+<ul><li>Keep removable blocks dry and replaceable.</li><li>Avoid soaking fired ceramic bodies unless the clay/glaze combination is proven.</li><li>Store with a cork or cloth spacer so the labium is protected.</li><li>Keep a small wax kit for tuning during outdoor or temperature-variable use.</li></ul><p class="placeholder">No process photos in <code>images/</code>. Add at least one to populate this section.</p></section>
+<section><h2>The numbers</h2><h3>BOM</h3><table><thead><tr><th>item</th><th>part</th><th>qty</th><th>material_spec</th><th>make_buy</th><th>drawing_ref</th><th>notes</th></tr></thead><tbody><tr><td>BOM-000</td><td>Natural horn blank</td><td>3 blanks for first authentic prototype</td><td>Domesticated cow/ox/goat/sheep horn, closed tip, no cracks</td><td>buy</td><td>horn-blank-spec.csv</td><td>Authentic build path; avoid endangered/wild chamois sourcing</td></tr>
+<tr><td>BOM-001</td><td>Slip-cast ceramic body</td><td>1 per instrument</td><td>White stoneware or porcelain casting slip, measured shrinkage</td><td>make</td><td>drawings/gemshorn-body-section.svg</td><td>Use family-spec.csv for size-specific fired and master dimensions</td></tr>
+<tr><td>BOM-002</td><td>Two-part plaster mold</td><td>1 per size</td><td>Pottery plaster or equivalent</td><td>make</td><td>drawings/gemshorn-mold-schematic.svg</td><td>Add registration keys and pour mouth</td></tr>
+<tr><td>BOM-003</td><td>Master pattern</td><td>1 per size</td><td>3D printed resin/PLA, tooling board, or sealed wood</td><td>make or outsource</td><td>cad/gemshorn_family.scad</td><td>Scale for shrinkage and seal before plaster</td></tr>
+<tr><td>BOM-004</td><td>Fipple/block</td><td>1 per instrument</td><td>Cedar, maple, pear, plaster, or stable hardwood</td><td>make</td><td>drawings/gemshorn-voicing-detail.svg</td><td>Removable block recommended for tuning and service</td></tr>
+<tr><td>BOM-005</td><td>Seal wrap/gasket</td><td>1 set per instrument</td><td>Leather, cork, beeswax, or thin silicone gasket</td><td>buy</td><td>drawings/gemshorn-voicing-detail.svg</td><td>Keep mouth-contact material safe and replaceable</td></tr>
+<tr><td>BOM-006</td><td>Optional tuning ring/collar</td><td>1 per instrument</td><td>Thin brass/stainless ring, leather band, or ceramic collar</td><td>buy or make</td><td>drawings/gemshorn-voicing-detail.svg</td><td>Rotates over vent to lower closed keynote</td></tr>
+<tr><td>BOM-007</td><td>Tuning and measurement kit</td><td>1 shop set</td><td>Pin gauges, drill bits, reamers, tuner, thermometer, wax</td><td>buy</td><td>validation.csv</td><td>Required before final pitch claims</td></tr>
+<tr><td>BOM-008</td><td>CNC split-wood body blanks</td><td>2 halves per prototype</td><td>Maple, cherry, pear, beech, or boxwood; straight-grained; oversized for routing</td><td>make</td><td>drawings/gemshorn-cnc-wood-body.svg</td><td>Modern CNC router build path; start with C5 or G4</td></tr>
+<tr><td>BOM-009</td><td>Wood body registration dowels</td><td>2 to 4 per prototype</td><td>1/4 in hardwood dowels or metal datum pins</td><td>buy</td><td>cnc/wood-body-cnc-plan.md</td><td>Outside final body outline or hidden after shaping</td></tr>
+<tr><td>BOM-010</td><td>Wood body adhesive/seal system</td><td>1 set per prototype</td><td>Thin even glue line plus mouth-safe interior/finish test coupon</td><td>buy</td><td>risks.md</td><td>Critical leak and mouth-safety gate</td></tr>
+<tr><td>BOM-011</td><td>Alternate material coupons</td><td>1 set</td><td>Stoneware, porcelain, maple/cherry/pear, printed master material, optional acrylic teaching coupon</td><td>make or buy</td><td>material-options.md</td><td>Use coupons before committing alternate materials to instruments</td></tr></tbody></table><h3>Cut list</h3><table><thead><tr><th>part_id</th><th>part</th><th>qty</th><th>rough_size</th><th>finished_size</th><th>material</th><th>operation</th><th>yield_or_offcut</th><th>notes</th></tr></thead><tbody><tr><td>GEM-SC-F3-MASTER</td><td>Bass F scaled master</td><td class="num">1</td><td>33.50 x 7.28 x 7.28 in envelope</td><td>31.50 in centerline, 5.28 in wide OD</td><td>sealed print/tooling board</td><td>print/CNC, seal, sand, polish, mark dimples</td><td>one master per size</td><td>Check mold release before committing plaster</td></tr>
+<tr><td>GEM-SC-F3-MOLD</td><td>Bass F plaster mold</td><td class="num">1</td><td>mold box about 35.50 x 9.28 x 9.28 in</td><td>two plaster halves plus pour opening</td><td>pottery plaster</td><td>cast mold halves around sealed master</td><td>reuse for production run after seasoning</td><td>Add registration keys and split-line witness marks</td></tr>
+<tr><td>GEM-SC-C4-MASTER</td><td>Tenor C scaled master</td><td class="num">1</td><td>23.02 x 5.52 x 5.52 in envelope</td><td>21.02 in centerline, 3.52 in wide OD</td><td>sealed print/tooling board</td><td>print/CNC, seal, sand, polish, mark dimples</td><td>one master per size</td><td>Check mold release before committing plaster</td></tr>
+<tr><td>GEM-SC-C4-MOLD</td><td>Tenor C plaster mold</td><td class="num">1</td><td>mold box about 25.02 x 7.52 x 7.52 in</td><td>two plaster halves plus pour opening</td><td>pottery plaster</td><td>cast mold halves around sealed master</td><td>reuse for production run after seasoning</td><td>Add registration keys and split-line witness marks</td></tr>
+<tr><td>GEM-SC-F4-MASTER</td><td>Alto F scaled master</td><td class="num">1</td><td>17.75 x 4.64 x 4.64 in envelope</td><td>15.75 in centerline, 2.64 in wide OD</td><td>sealed print/tooling board</td><td>print/CNC, seal, sand, polish, mark dimples</td><td>one master per size</td><td>Check mold release before committing plaster</td></tr>
+<tr><td>GEM-SC-F4-MOLD</td><td>Alto F plaster mold</td><td class="num">1</td><td>mold box about 19.75 x 6.64 x 6.64 in</td><td>two plaster halves plus pour opening</td><td>pottery plaster</td><td>cast mold halves around sealed master</td><td>reuse for production run after seasoning</td><td>Add registration keys and split-line witness marks</td></tr>
+<tr><td>GEM-SC-C5-MASTER</td><td>Soprano C scaled master</td><td class="num">1</td><td>12.51 x 3.76 x 3.76 in envelope</td><td>10.51 in centerline, 1.76 in wide OD</td><td>sealed print/tooling board</td><td>print/CNC, seal, sand, polish, mark dimples</td><td>one master per size</td><td>Check mold release before committing plaster</td></tr>
+<tr><td>GEM-SC-C5-MOLD</td><td>Soprano C plaster mold</td><td class="num">1</td><td>mold box about 14.51 x 5.76 x 5.76 in</td><td>two plaster halves plus pour opening</td><td>pottery plaster</td><td>cast mold halves around sealed master</td><td>reuse for production run after seasoning</td><td>Add registration keys and split-line witness marks</td></tr>
+<tr><td>GEM-SC-F5-MASTER</td><td>Sopranino F scaled master</td><td class="num">1</td><td>9.87 x 3.32 x 3.32 in envelope</td><td>7.87 in centerline, 1.32 in wide OD</td><td>sealed print/tooling board</td><td>print/CNC, seal, sand, polish, mark dimples</td><td>one master per size</td><td>Check mold release before committing plaster</td></tr>
+<tr><td>GEM-SC-F5-MOLD</td><td>Sopranino F plaster mold</td><td class="num">1</td><td>mold box about 11.87 x 5.32 x 5.32 in</td><td>two plaster halves plus pour opening</td><td>pottery plaster</td><td>cast mold halves around sealed master</td><td>reuse for production run after seasoning</td><td>Add registration keys and split-line witness marks</td></tr>
+<tr><td>GEM-WOOD-C5-HALVES</td><td>Soprano C CNC split-wood body halves</td><td>1 pair</td><td>12.50 x 2.50 x 1.00 in each half</td><td>10.50 in routed body envelope, 0.150 in min wall</td><td>maple/cherry/pear/boxwood</td><td>joint, plane, CNC route mirrored cavity, drill dowel registration</td><td>offcuts become fipple/block test coupons</td><td>Modern CNC router proof of concept</td></tr>
+<tr><td>GEM-WOOD-G4-HALVES</td><td>Historical G4 CNC split-wood body halves</td><td>1 pair</td><td>15.50 x 3.00 x 1.10 in each half</td><td>14.00 in routed body envelope, 0.160 in min wall</td><td>maple/cherry/pear/boxwood</td><td>joint, plane, CNC route mirrored cavity, drill dowel registration</td><td>offcuts become windway and finish coupons</td><td>Good comparison against natural-horn G4</td></tr>
+<tr><td>GEM-WOOD-DOWELS</td><td>Split-body registration dowels</td><td>2 to 4</td><td>0.25 dia x 1.00 in each</td><td>0.25 in dowel or removable metal pin</td><td>hardwood or steel</td><td>drill from CNC datum before cavity routing</td><td>trim flush or remove before exterior shaping</td><td>Keep outside tone-critical cavity</td></tr>
+<tr><td>GEM-FINISH-COUPONS</td><td>Material/finish coupons</td><td>1 set</td><td>2.00 x 2.00 x 0.25 in samples</td><td>finished per material test</td><td>wood/ceramic/printed material</td><td>seal, finish, odor test, water test, edge-retention check</td><td>document in validation.csv</td><td>Required before alternate final-body materials</td></tr></tbody></table></section>
+<section><h2>Tuning &amp; validation</h2><table><thead><tr><th>instrument_id</th><th>check</th><th>target</th><th>measured</th><th>tolerance</th><th>environment</th><th>result</th><th>action</th><th>measured_hz</th><th>cents_error</th><th>tuner</th><th>measurement_date</th></tr></thead><tbody><tr><td>GEM-SC-F3</td><td>closed tonic frequency</td><td>174.61 Hz</td><td></td><td>+/-15 cents prototype</td><td>record temp F, humidity</td><td></td><td>adjust cavity/window/vent before hole tuning</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F3</td><td>fired centerline length</td><td>27.719 in</td><td></td><td>+/-0.060 in</td><td>after glaze if glazed</td><td></td><td>update shrinkage factor if systematic</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F3</td><td>fired internal volume</td><td>2402 ml</td><td></td><td>+/-5%</td><td>water-fill, dry after</td><td></td><td>retune window/vent model</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-C4</td><td>closed tonic frequency</td><td>261.63 Hz</td><td></td><td>+/-15 cents prototype</td><td>record temp F, humidity</td><td></td><td>adjust cavity/window/vent before hole tuning</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-C4</td><td>fired centerline length</td><td>18.500 in</td><td></td><td>+/-0.060 in</td><td>after glaze if glazed</td><td></td><td>update shrinkage factor if systematic</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-C4</td><td>fired internal volume</td><td>650 ml</td><td></td><td>+/-5%</td><td>water-fill, dry after</td><td></td><td>retune window/vent model</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F4</td><td>closed tonic frequency</td><td>349.23 Hz</td><td></td><td>+/-15 cents prototype</td><td>record temp F, humidity</td><td></td><td>adjust cavity/window/vent before hole tuning</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F4</td><td>fired centerline length</td><td>13.859 in</td><td></td><td>+/-0.060 in</td><td>after glaze if glazed</td><td></td><td>update shrinkage factor if systematic</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F4</td><td>fired internal volume</td><td>260 ml</td><td></td><td>+/-5%</td><td>water-fill, dry after</td><td></td><td>retune window/vent model</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-C5</td><td>closed tonic frequency</td><td>523.25 Hz</td><td></td><td>+/-15 cents prototype</td><td>record temp F, humidity</td><td></td><td>adjust cavity/window/vent before hole tuning</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-C5</td><td>fired centerline length</td><td>9.250 in</td><td></td><td>+/-0.060 in</td><td>after glaze if glazed</td><td></td><td>update shrinkage factor if systematic</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-C5</td><td>fired internal volume</td><td>72 ml</td><td></td><td>+/-5%</td><td>water-fill, dry after</td><td></td><td>retune window/vent model</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F5</td><td>closed tonic frequency</td><td>698.46 Hz</td><td></td><td>+/-15 cents prototype</td><td>record temp F, humidity</td><td></td><td>adjust cavity/window/vent before hole tuning</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F5</td><td>fired centerline length</td><td>6.930 in</td><td></td><td>+/-0.060 in</td><td>after glaze if glazed</td><td></td><td>update shrinkage factor if systematic</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F5</td><td>fired internal volume</td><td>28 ml</td><td></td><td>+/-5%</td><td>water-fill, dry after</td><td></td><td>retune window/vent model</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F3</td><td>H1 final diameter</td><td>0.3409 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F3</td><td>H2 final diameter</td><td>0.3936 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F3</td><td>H3 final diameter</td><td>0.2857 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F3</td><td>H4 final diameter</td><td>0.4914 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F3</td><td>H5 final diameter</td><td>0.5723 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F3</td><td>H6 final diameter</td><td>0.6692 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F3</td><td>H7 final diameter</td><td>0.4727 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F3</td><td>T1 final diameter</td><td>0.8530 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-C4</td><td>H1 final diameter</td><td>0.2347 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-C4</td><td>H2 final diameter</td><td>0.2699 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-C4</td><td>H3 final diameter</td><td>0.1977 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-C4</td><td>H4 final diameter</td><td>0.3345 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-C4</td><td>H5 final diameter</td><td>0.3875 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-C4</td><td>H6 final diameter</td><td>0.4504 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-C4</td><td>H7 final diameter</td><td>0.3222 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-C4</td><td>T1 final diameter</td><td>0.5687 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F4</td><td>H1 final diameter</td><td>0.1780 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F4</td><td>H2 final diameter</td><td>0.2043 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F4</td><td>H3 final diameter</td><td>0.1502 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F4</td><td>H4 final diameter</td><td>0.2525 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F4</td><td>H5 final diameter</td><td>0.2919 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F4</td><td>H6 final diameter</td><td>0.3386 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F4</td><td>H7 final diameter</td><td>0.2434 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F4</td><td>T1 final diameter</td><td>0.4258 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-C5</td><td>H1 final diameter</td><td>0.1208 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-C5</td><td>H2 final diameter</td><td>0.1383 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-C5</td><td>H3 final diameter</td><td>0.1021 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-C5</td><td>H4 final diameter</td><td>0.1703 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-C5</td><td>H5 final diameter</td><td>0.1963 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-C5</td><td>H6 final diameter</td><td>0.2270 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-C5</td><td>H7 final diameter</td><td>0.1643 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-C5</td><td>T1 final diameter</td><td>0.2840 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F5</td><td>H1 final diameter</td><td>0.0917 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F5</td><td>H2 final diameter</td><td>0.1048 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F5</td><td>H3 final diameter</td><td>0.0777 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F5</td><td>H4 final diameter</td><td>0.1287 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F5</td><td>H5 final diameter</td><td>0.1480 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F5</td><td>H6 final diameter</td><td>0.1707 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F5</td><td>H7 final diameter</td><td>0.1242 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-SC-F5</td><td>T1 final diameter</td><td>0.2127 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-HIST-G4</td><td>F1 final diameter</td><td>0.1594 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-HIST-G4</td><td>F2 final diameter</td><td>0.1828 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-HIST-G4</td><td>F3 final diameter</td><td>0.1345 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-HIST-G4</td><td>F4 final diameter</td><td>0.2257 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-HIST-G4</td><td>T1 final diameter</td><td>0.5445 in</td><td></td><td>by pitch, do not oversize</td><td>after bisque and final tune</td><td></td><td>open gradually or wax if sharp</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-WOOD-C5</td><td>split-body cavity leak test</td><td>no bubbles at 2 minute low-pressure test</td><td></td><td>pass/fail</td><td>shop bench before exterior shaping</td><td></td><td>seal seam or remake glue-up</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-WOOD-C5</td><td>measured internal volume</td><td>match C5 target within +/-5%</td><td></td><td>+/-5%</td><td>water-fill after sealed glue-up</td><td></td><td>update Helmholtz model and hole schedule</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-WOOD-G4</td><td>split-body cavity leak test</td><td>no bubbles at 2 minute low-pressure test</td><td></td><td>pass/fail</td><td>shop bench before exterior shaping</td><td></td><td>seal seam or remake glue-up</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-MATERIAL-COUPON</td><td>finish odor and mouth-contact screen</td><td>no tacky odor or surface shedding after cure</td><td></td><td>pass/fail</td><td>after full cure at shop temperature</td><td></td><td>reject finish or move finish away from mouth-contact areas</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>GEM-MATERIAL-COUPON</td><td>labium edge retention</td><td>coupon edge stays crisp after finish/wet-dry handling</td><td></td><td>visual and caliper check</td><td>after finish and wipe-down</td><td></td><td>change material or mask voicing edges</td><td></td><td></td><td></td><td></td></tr></tbody></table></section>
+<section><h2>Known risks</h2><h2>Risks</h2>
+<p>Generated: 2026-05-06</p>
+<h3>Acoustic</h3>
+<h3>Acoustic: Helmholtz model overpredicts playable pitch</h3>
+<p>**Symptom:** The closed note or upper scale speaks flat/sharp even when the calculated cavity volume and tone-hole areas match the design sheet.</p>
+<p>**Mechanism:** Gemshorn pitch depends on coupled fipple/window behavior, leakage, tone-hole chamfer, and effective neck length. The first-pass Helmholtz model is directionally useful but not a finished calibration.</p>
+<p>**Test:** Build `GEM-SC-C5` first, measure fired water-fill volume, record the closed note and each opened-hole note at logged temperature, and compute cents error in `validation.csv`.</p>
+<p>**Mitigation:** Update the design table with measured volume and empirical hole corrections before scaling to the full family. Keep holes flat/undersized before final tuning.</p>
+<p>**Severity:** Medium.</p>
+<h3>Acoustic: CNC wood seam leakage weakens fundamental</h3>
+<p>**Symptom:** The CNC-routed wood version sounds airy, unstable, or low in volume compared with ceramic/horn.</p>
+<p>**Mechanism:** Split-blank construction creates a long glue seam around the cavity. Even tiny leaks reduce acoustic conductance control and can change the fipple response.</p>
+<p>**Test:** Before final shaping, plug the window and tone holes, gently pressurize the cavity by mouth or bulb, and brush soapy water along the seam.</p>
+<p>**Mitigation:** Add a continuous shallow gasket groove, use a thin even glue line, and seal the interior before final glue-up if the finish is mouth-safe after cure.</p>
+<p>**Severity:** Medium.</p>
+<h3>Structural</h3>
+<h3>Structural: Ceramic cracks around large low-register holes</h3>
+<p>**Symptom:** Bass/tenor bodies crack during drying, bisque, drilling, or tuning around H6/T1 or the tuning vent.</p>
+<p>**Mechanism:** Large holes interrupt a curved ceramic shell and create stress concentration. Wall thickness and drying gradients matter more on the larger family members.</p>
+<p>**Test:** Make a clay coupon with the largest bass hole and wall target. Dry and bisque it before committing to the full bass mold.</p>
+<p>**Mitigation:** Add local boss thickness around large holes, drill greenware undersize, slow dry under loose cover, and tune after bisque with gradual reaming.</p>
+<p>**Severity:** High. Human decision required before cutting a bass mold if coupon fails.</p>
+<h3>Structural: Natural horn delaminates or cracks during cleaning</h3>
+<p>**Symptom:** A horn blank flakes, splits, or opens at the tip while being cleaned or drilled.</p>
+<p>**Mechanism:** Horn is layered keratin. Heat, aggressive soaking, old dry material, or internal defects can delaminate the blank.</p>
+<p>**Test:** Inspect with light through the wall, flex gently at the wide end, and clean one sacrificial blank before layout.</p>
+<p>**Mitigation:** Buy multiple blanks, avoid boiling unless tested, keep the tip closed or permanently plug it, and reject thin/transparent wall sections near the voicing.</p>
+<p>**Severity:** Medium.</p>
+<h3>Ergonomic</h3>
+<h3>Ergonomic: Bass F body exceeds comfortable hand support</h3>
+<p>**Symptom:** The bass F is hard to hold, requires wrist extension, or pulls the mouthpiece angle downward.</p>
+<p>**Mechanism:** The scaled bass body is long and wide enough that the instrument behaves like a small supported vessel rather than a hand flute.</p>
+<p>**Test:** Make a cardboard or foam full-scale silhouette from `family-spec.csv` and check seated/lap, sling, and stand support positions.</p>
+<p>**Mitigation:** Treat `GEM-SC-F3` as bench/lap/sling-supported, move holes for reach without assuming position strongly determines pitch, and add a support point to the design drawing.</p>
+<p>**Severity:** Medium.</p>
+<h3>Ergonomic: Sopranino holes are too small for reliable playing</h3>
+<p>**Symptom:** The sopranino F plays inconsistently because fingertips cannot seal tiny holes precisely.</p>
+<p>**Mechanism:** Scaling reduces tone-hole diameters and spacing. Small holes are tuning-sensitive and are easily rounded by finish or reaming.</p>
+<p>**Test:** Make a flat fingerboard coupon with final hole diameters and ask the intended player to cover holes without looking.</p>
+<p>**Mitigation:** Keep the sopranino as an optional family member, use a slightly larger body scale if needed, or omit chromatic ambitions on that size.</p>
+<p>**Severity:** Low.</p>
+<h3>Supply</h3>
+<h3>Supply: Ethical horn blanks are inconsistent</h3>
+<p>**Symptom:** Purchased horn blanks differ too much in curve, wall, odor, core condition, or closed-tip geometry.</p>
+<p>**Mechanism:** Natural horn is not an industrial material. Blank descriptions rarely specify internal volume or fipple-friendly wide-end geometry.</p>
+<p>**Test:** Order several candidate blanks and log length, wide OD, wall, tip condition, water volume, and rejection reason in `horn-blank-spec.csv` notes.</p>
+<p>**Mitigation:** Buy extras, tune each horn as a one-off, and keep the ceramic/CNC paths as repeatable alternatives.</p>
+<p>**Severity:** Medium.</p>
+<h3>Supply: Clay shrinkage data is missing or batch-specific</h3>
+<p>**Symptom:** Fired parts do not match master dimensions, and the family scale drifts.</p>
+<p>**Mechanism:** Casting slip shrinkage varies by clay body, water content, mold age, drying, firing cone, and glaze schedule.</p>
+<p>**Test:** Fire shrinkage bars with every clay batch and compare green, bone-dry, bisque, and glaze dimensions.</p>
+<p>**Mitigation:** Update `gemshorn-design-table.xlsx` before master fabrication and keep masters editable until the clay body is locked.</p>
+<p>**Severity:** High. Human decision required before production mold set if shrinkage is unmeasured.</p>
+<h3>Fit/Finish</h3>
+<h3>Fit/Finish: Glaze or finish rounds the labium edge</h3>
+<p>**Symptom:** The instrument becomes breathy, slow to speak, or loses pitch stability after finishing.</p>
+<p>**Mechanism:** The labium and windway need crisp, controlled edges. Glaze, oil, wax buildup, or sanding dust can change the edge and windway height.</p>
+<p>**Test:** Photograph and measure the window before and after finish. Test-blow with the same temporary block before and after finishing.</p>
+<p>**Mitigation:** Mask windway, labium, hole interiors, and block seats. Use exterior-only finish near the voicing and retouch the labium after firing/finish only with controlled tools.</p>
+<p>**Severity:** High. Human decision required if the finish system cannot keep the voicing clean.</p>
+<h3>Fit/Finish: Wood body glue line is visible or uncomfortable</h3>
+<p>**Symptom:** The routed wood body has a visible seam, rough mouth feel, or finish witness line along the body.</p>
+<p>**Mechanism:** Split-body construction exposes a longitudinal seam and can leave mismatched grain or finish absorption.</p>
+<p>**Test:** Make one finish coupon with the planned glue, seal coat, and final finish; inspect under raking light and touch around the mouth area.</p>
+<p>**Mitigation:** Choose straight-grained matched halves, place seam away from lips/fingers where possible, scrape flush before finish, and use a mouth-safe topcoat.</p>
+<p>**Severity:** Low.</p></section>
+<section><h2>Family overview</h2><ul><li>GEM-SC-F3 — Bass F, supported/lap instrument</li><li>GEM-SC-C4 — Tenor C</li><li>GEM-SC-F4 — Alto F</li><li>GEM-SC-C5 — Soprano C pilot</li><li>GEM-SC-F5 — Sopranino F</li><li>GEM-HIST-G4 — Historical horn/clay archetype</li></ul></section>
+<section><h2>Resources</h2><ul><li><a href="../README.md">Project README</a></li><li><a href="../capstone-deck.pptx">Capstone deck (.pptx)</a></li><li><a href="../print-packet.pdf">Printable shop packet (.pdf)</a></li><li><a href="https://github.com/tonykoop">Tony's GitHub</a></li></ul></section>
+</main>
+<footer>
+Built by Tony Koop · MIT licensed repo unless otherwise noted · <a href="https://github.com/tonykoop">github.com/tonykoop</a>
+</footer>
+</body>
+</html>

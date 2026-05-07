@@ -7,3 +7,7 @@ BOM-004,Fipple/block,1 per instrument,"Cedar, maple, pear, plaster, or stable ha
 BOM-005,Seal wrap/gasket,1 set per instrument,"Leather, cork, beeswax, or thin silicone gasket",buy,drawings/gemshorn-voicing-detail.svg,Keep mouth-contact material safe and replaceable
 BOM-006,Optional tuning ring/collar,1 per instrument,"Thin brass/stainless ring, leather band, or ceramic collar",buy or make,drawings/gemshorn-voicing-detail.svg,Rotates over vent to lower closed keynote
 BOM-007,Tuning and measurement kit,1 shop set,"Pin gauges, drill bits, reamers, tuner, thermometer, wax",buy,validation.csv,Required before final pitch claims
+BOM-008,CNC split-wood body blanks,2 halves per prototype,"Maple, cherry, pear, beech, or boxwood; straight-grained; oversized for routing",make,drawings/gemshorn-cnc-wood-body.svg,Modern CNC router build path; start with C5 or G4
+BOM-009,Wood body registration dowels,2 to 4 per prototype,"1/4 in hardwood dowels or metal datum pins",buy,cnc/wood-body-cnc-plan.md,Outside final body outline or hidden after shaping
+BOM-010,Wood body adhesive/seal system,1 set per prototype,"Thin even glue line plus mouth-safe interior/finish test coupon",buy,risks.md,Critical leak and mouth-safety gate
+BOM-011,Alternate material coupons,1 set,"Stoneware, porcelain, maple/cherry/pear, printed master material, optional acrylic teaching coupon",make or buy,material-options.md,Use coupons before committing alternate materials to instruments

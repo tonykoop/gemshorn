@@ -10,6 +10,7 @@ Generated: 2026-05-02
 4. `drawings/gemshorn-mold-schematic.svg` - two-part plaster mold, split line, keys, pour mouth, and release direction.
 5. `drawings/hole-layout-template.svg` - soprano C hole positions and diameters for a drilling template.
 6. `drawings/visual-bom-plate.svg` - visual BOM plate layout.
+7. `drawings/gemshorn-cnc-wood-body.svg` - CNC split-wood body halves, datums, registration pins, operation notes, and tolerances.
 
 ## Datums
 
@@ -28,6 +29,7 @@ Generated: 2026-05-02
 - Tone-hole center positions measured from Datum A along the centerline.
 - Tone-hole final fired diameters and greenware drill-start diameters.
 - Tuning ring or vent position and diameter.
+- CNC split-wood body half stock, dowel-pin locations, cavity wall minimum, and glue seam datum.
 
 ## Tolerances
 
@@ -50,3 +52,5 @@ Generated: 2026-05-02
 ## Notes
 
 The SVGs are shop-reference drawings and review plates. Before making production molds, convert the dimensions into SolidWorks, OpenSCAD/STL, or another CAD system and verify mold release.
+
+For the CNC wood path, verify `cad/gemshorn_split_wood_body.scad` in CAD/CAM before cutting. The SVG is a datum and operation drawing, not a toolpath source.

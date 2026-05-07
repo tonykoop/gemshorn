@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="430" viewBox="0 0 980 430">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="24" y="34" font-family="Arial, sans-serif" font-size="22" font-weight="700">Gemshorn Body Section - Soprano C Baseline</text>
+  <text x="720" y="406" font-family="Arial, sans-serif" font-size="12">Generated 2026-05-02 | Units: inches</text>
+
+  <path d="M 120 170.0 C 340 150, 570 182, 740 208.0 L 740 232.0 C 570 258, 340 290, 120 270.0 Z" fill="#f5efe4" stroke="#111" stroke-width="2"/>
+  <path d="M 150 186 C 350 172, 565 195, 720 213 L 720 227 C 565 245, 350 268, 150 254 Z" fill="#ffffff" stroke="#333" stroke-dasharray="5 4"/>
+  <rect x="82" y="172" width="46" height="96" fill="#d8b98c" stroke="#111"/>
+  <text x="64" y="160" font-family="Arial" font-size="12">Removable block</text>
+  <rect x="172" y="159" width="58" height="22" fill="#ffffff" stroke="#111"/>
+  <text x="240" y="176" font-family="Arial" font-size="12">Voicing window</text>
+  <line x1="120" y1="304" x2="740" y2="304" stroke="#111"/>
+  <text x="335" y="325" font-family="Arial" font-size="12">Datum B centerline to closed tip, fired L 9.25 in</text>
+  <text x="120" y="370" font-family="Arial" font-size="13">Wide OD 1.55 in | Wall 0.130 in | Volume 72 ml | Window 0.430 x 0.140 in</text>
+</svg>

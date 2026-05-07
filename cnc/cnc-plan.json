@@ -1,0 +1,106 @@
+{
+  "schema": "instrument-maker-v4.2-cnc-plan",
+  "generated_on": "2026-05-06",
+  "packet": "/mnt/c/Users/Tony/Documents/GitHub/gemshorn",
+  "family": "vessel-flute",
+  "machine_note": "Mode A gemshorn repo; natural horn, slip-cast ceramic, and CNC-routed split-wood paths.",
+  "available_inputs": {
+    "design.md": true,
+    "family-spec.csv": true,
+    "bom.csv": true,
+    "cut-list.csv": true,
+    "sourcing.csv": true,
+    "drawing-brief.md": true,
+    "assembly-manual.md": true,
+    "build-methods.md": true,
+    "validation.csv": true,
+    "risks.md": true
+  },
+  "assumptions": [
+    "This is a pre-CAM operation graph, not verified G-code.",
+    "Verify feeds, speeds, work envelope, hold-down, and tool clearance at the machine.",
+    "Run simulation or air-cut before cutting instrument material.",
+    "Tune final pitch empirically by measured volume, fipple behavior, leak behavior, and hole opening."
+  ],
+  "operations": [
+    {
+      "op_id": "OP-010",
+      "name": "Review design package and choose build method",
+      "machine": "Bench",
+      "tool": "Calipers, ruler, design table",
+      "workholding": "Flat bench",
+      "datum": "Datum A labium edge",
+      "inputs": ["design.md", "build-methods.md", "family-spec.csv"],
+      "outputs": ["selected prototype", "selected build method"],
+      "checks": ["method selected", "target key selected", "validation rows ready"],
+      "notes": "Start with GEM-SC-C5 unless the goal is historical horn reference."
+    },
+    {
+      "op_id": "OP-020",
+      "name": "Prepare natural horn blank",
+      "machine": "Bench / drill press",
+      "tool": "Fine saw, scrapers, mild detergent, calipers",
+      "workholding": "Padded vise",
+      "datum": "Wide-end seating plane",
+      "inputs": ["authentic-horn-build-plan.md", "horn-blank-spec.csv"],
+      "outputs": ["cleaned horn blank", "measured volume"],
+      "checks": ["tip remains closed", "wall sound", "volume measured"],
+      "notes": "Only for natural-horn method."
+    },
+    {
+      "op_id": "OP-030",
+      "name": "Fabricate slip-cast master",
+      "machine": "CNC router / 3D printer / bench",
+      "tool": "3D printer or 1/4 in ball end; sealant; sandpaper",
+      "workholding": "Mold-master fixture",
+      "datum": "Master centerline",
+      "inputs": ["family-spec.csv", "cad/gemshorn_family.scad"],
+      "outputs": ["sealed scaled master"],
+      "checks": ["shrinkage scale applied", "split line marked", "no undercuts"],
+      "notes": "Only for ceramic method."
+    },
+    {
+      "op_id": "OP-050",
+      "name": "Prepare CNC wood halves",
+      "machine": "CNC router",
+      "tool": "Surfacing bit, 1/4 in upcut, 1/4 in dowel drill",
+      "workholding": "Spoilboard clamps and dowel fixture",
+      "datum": "Split plane Datum C",
+      "inputs": ["cut-list.csv", "drawings/gemshorn-cnc-wood-body.svg"],
+      "outputs": ["faced halves", "dowel holes"],
+      "checks": ["stock oversized", "dowels outside acoustic cavity", "clamp clearance checked"],
+      "notes": "Only for CNC wood method."
+    },
+    {
+      "op_id": "OP-060",
+      "name": "Route CNC wood cavity halves",
+      "machine": "CNC router",
+      "tool": "1/4 in ball end; optional 1/8 in ball end",
+      "workholding": "Dowel fixture plus perimeter clamps",
+      "datum": "Datum B centerline",
+      "inputs": ["cad/gemshorn_split_wood_body.scad", "cnc/wood-body-cnc-plan.md"],
+      "outputs": ["mirrored cavity halves"],
+      "checks": ["minimum wall remains", "no tearout in voicing zone", "cavity volume estimated"],
+      "notes": "Pre-CAM plan only; verify in CAM before cutting."
+    },
+    {
+      "op_id": "OP-900",
+      "name": "Final validation and documentation",
+      "machine": "Bench",
+      "tool": "Tuner, microphone, calipers, thermometer, camera",
+      "workholding": "Padded bench",
+      "datum": "Method-specific acoustic datum",
+      "inputs": ["validation.csv", "photo-shotlist.md"],
+      "outputs": ["updated validation", "photos"],
+      "checks": ["measured_hz recorded", "cents_error computed", "temperature and build method recorded"],
+      "notes": "Feeds site and future empirical corrections."
+    }
+  ],
+  "release_checks": [
+    "Every operation has a datum and workholding method.",
+    "All tuning-critical features include trim allowance.",
+    "Wood body passes leak test before exterior shaping.",
+    "Ceramic body has measured shrinkage before production molds.",
+    "Natural horn blank is documented as a one-off tuned instrument."
+  ]
+}

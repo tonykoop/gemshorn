@@ -1,0 +1,8 @@
+test_id,material,body_or_component,prototype_method,target_property,measurement,pass_fail,notes
+MAT-001,white stoneware slip,body,slip-cast ceramic,linear shrinkage,,,Fire with first mold batch before production masters
+MAT-002,porcelain casting slip,body,slip-cast ceramic,edge crispness and shrinkage,,,Compare with stoneware only after C5 pilot
+MAT-003,maple,body,CNC split wood,leak-free glue seam,,,Use C5 split-body prototype
+MAT-004,cherry,body,CNC split wood,finish compatibility and stability,,,Good alternate to maple
+MAT-005,domesticated cow horn,body,natural horn,closed-tip cavity and wall integrity,,,Reject cracked or delaminated blanks
+MAT-006,cork/leather gasket,seal,all methods,airtight removable fipple seal,,,Check odor and shedding
+MAT-007,shellac or food-safe oil/wax,finish,wood body and block,mouth-area finish safety,,,Coupon must cure cleanly before use

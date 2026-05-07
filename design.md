@@ -1,6 +1,7 @@
 # Slip-Cast Gemshorn Family Build Packet
 
 Generated: 2026-05-02
+v4 refresh: 2026-05-06
 
 Packet root: `/mnt/c/Users/Tony/Documents/GitHub/gemshorn`
 
@@ -23,6 +24,11 @@ This packet gives you a historically informed gemshorn build path and a practica
 - `bom.csv`, `sourcing.csv`, `cut-list.csv`, `validation.csv` - production and validation tables.
 - `assembly-manual.md`, `mold-and-slip-casting-plan.md`, `tuning-and-fingering.md`, `authenticity-notes.md` - shop-facing instructions.
 - `authentic-horn-build-plan.md`, `horn-blank-spec.csv` - natural-horn authentic build path and blank selection specs.
+- `build-methods.md` - side-by-side real horn, slip-cast ceramic, CNC split wood, and research-material build methods.
+- `material-options.md` - candidate materials and safety/finish gates.
+- `risks.md`, `photo-shotlist.md`, `site/index.html` - v4 risk, photo, and build-log-site deliverables.
+- `cnc/cnc-plan.json`, `cnc/operations.csv`, `cnc/setup-sheet.md`, `cnc/wood-body-cnc-plan.md` - CNC/router planning deliverables.
+- `wolfram/instrument-model.wl` - v4.2 Wolfram package.
 - `wolfram-starter.wl` - notebook-ready physics starter.
 
 ## Acoustic Model
@@ -67,6 +73,26 @@ The historical model should be built first with waxable/reworkable holes. If you
 - Holes: cast-in undersize dimples or drill leather-hard to the greenware start diameters, then tune by opening slowly after bisque.
 - Finish: exterior glaze only around body; keep windway, labium edge, tone-hole interiors, and seating surfaces unglazed or very lightly treated.
 
+## Build Methods
+
+| Method | Status | Primary Files | Notes |
+| --- | --- | --- | --- |
+| Natural horn | Historically informed reference | `authentic-horn-build-plan.md`, `horn-blank-spec.csv` | Tune each horn as a one-off; no endangered/wild horn sourcing. |
+| Slip-cast ceramic | Production family path | `mold-and-slip-casting-plan.md`, `family-spec.csv`, `hole-schedule-modern.csv` | Best repeatability after clay shrinkage is measured. |
+| CNC-routed split wood | Modern prototype path | `cnc/wood-body-cnc-plan.md`, `cad/gemshorn_split_wood_body.scad`, `drawings/gemshorn-cnc-wood-body.svg` | Good for fast fipple, volume, and hand-layout tests. |
+| Alternate materials | Research path | `material-options.md`, `risks.md`, `validation.csv` | Must pass mouth-safety, edge-retention, and leak tests. |
+
+## Hardware Alignment
+
+| Operation | Tool / Fixture | Applies To | Release Check |
+| --- | --- | --- | --- |
+| Horn blank fitting | Fine saw, scraper, drill press, tapered reamers | Natural horn | Tip remains closed; fipple block seats without leaks. |
+| Mold master shaping | 3D print, CNC tooling board, or sealed master | Slip-cast ceramic | Master is scaled by measured shrinkage and releases from plaster. |
+| Plaster mold making | Two-part mold box, registration keys, pour mouth | Slip-cast ceramic | Mold halves register and cast releases at leather hard. |
+| Split-wood CNC routing | 1/4 in upcut, 1/4 in ball end, 1/8 in ball end, dowel-pin fixture | CNC wood body | Halves register, cavity leak test passes before shaping. |
+| Hole tuning | Pin gauges, drill bits, tapered reamers, wax | All methods | Holes start undersize and tune low to high. |
+| Validation | Tuner, thermometer, water-fill volume setup, calipers | All methods | `validation.csv` records measured values, cents error, and action. |
+
 ## Validation Gates
 
 - Measure fired cavity volume by water fill before final tuning.
@@ -79,3 +105,5 @@ The historical model should be built first with waxable/reworkable holes. If you
 - Actual clay body, firing cone, glaze schedule, and shrinkage test result.
 - Whether the production family should be C/F consort, G/D historical consort, or both.
 - Whether the tuning ring is a brass sleeve, leather wrap with rotating vent, or ceramic collar.
+- Whether CNC wood bodies should use a permanent glue seam, a gasketed service seam, or both as parallel prototypes.
+- Which alternate material coupons are worth testing after ceramic/wood/horn baselines.

@@ -1,61 +1,66 @@
-instrument_id,check,target,measured,tolerance,environment,result,action
-GEM-SC-F3,closed tonic frequency,174.61 Hz,,+/-15 cents prototype,"record temp F, humidity",,adjust cavity/window/vent before hole tuning
-GEM-SC-F3,fired centerline length,27.719 in,,+/-0.060 in,after glaze if glazed,,update shrinkage factor if systematic
-GEM-SC-F3,fired internal volume,2402 ml,,+/-5%,"water-fill, dry after",,retune window/vent model
-GEM-SC-C4,closed tonic frequency,261.63 Hz,,+/-15 cents prototype,"record temp F, humidity",,adjust cavity/window/vent before hole tuning
-GEM-SC-C4,fired centerline length,18.500 in,,+/-0.060 in,after glaze if glazed,,update shrinkage factor if systematic
-GEM-SC-C4,fired internal volume,650 ml,,+/-5%,"water-fill, dry after",,retune window/vent model
-GEM-SC-F4,closed tonic frequency,349.23 Hz,,+/-15 cents prototype,"record temp F, humidity",,adjust cavity/window/vent before hole tuning
-GEM-SC-F4,fired centerline length,13.859 in,,+/-0.060 in,after glaze if glazed,,update shrinkage factor if systematic
-GEM-SC-F4,fired internal volume,260 ml,,+/-5%,"water-fill, dry after",,retune window/vent model
-GEM-SC-C5,closed tonic frequency,523.25 Hz,,+/-15 cents prototype,"record temp F, humidity",,adjust cavity/window/vent before hole tuning
-GEM-SC-C5,fired centerline length,9.250 in,,+/-0.060 in,after glaze if glazed,,update shrinkage factor if systematic
-GEM-SC-C5,fired internal volume,72 ml,,+/-5%,"water-fill, dry after",,retune window/vent model
-GEM-SC-F5,closed tonic frequency,698.46 Hz,,+/-15 cents prototype,"record temp F, humidity",,adjust cavity/window/vent before hole tuning
-GEM-SC-F5,fired centerline length,6.930 in,,+/-0.060 in,after glaze if glazed,,update shrinkage factor if systematic
-GEM-SC-F5,fired internal volume,28 ml,,+/-5%,"water-fill, dry after",,retune window/vent model
-GEM-SC-F3,H1 final diameter,0.3409 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-F3,H2 final diameter,0.3936 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-F3,H3 final diameter,0.2857 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-F3,H4 final diameter,0.4914 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-F3,H5 final diameter,0.5723 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-F3,H6 final diameter,0.6692 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-F3,H7 final diameter,0.4727 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-F3,T1 final diameter,0.8530 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-C4,H1 final diameter,0.2347 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-C4,H2 final diameter,0.2699 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-C4,H3 final diameter,0.1977 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-C4,H4 final diameter,0.3345 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-C4,H5 final diameter,0.3875 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-C4,H6 final diameter,0.4504 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-C4,H7 final diameter,0.3222 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-C4,T1 final diameter,0.5687 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-F4,H1 final diameter,0.1780 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-F4,H2 final diameter,0.2043 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-F4,H3 final diameter,0.1502 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-F4,H4 final diameter,0.2525 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-F4,H5 final diameter,0.2919 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-F4,H6 final diameter,0.3386 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-F4,H7 final diameter,0.2434 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-F4,T1 final diameter,0.4258 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-C5,H1 final diameter,0.1208 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-C5,H2 final diameter,0.1383 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-C5,H3 final diameter,0.1021 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-C5,H4 final diameter,0.1703 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-C5,H5 final diameter,0.1963 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-C5,H6 final diameter,0.2270 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-C5,H7 final diameter,0.1643 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-C5,T1 final diameter,0.2840 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-F5,H1 final diameter,0.0917 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-F5,H2 final diameter,0.1048 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-F5,H3 final diameter,0.0777 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-F5,H4 final diameter,0.1287 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-F5,H5 final diameter,0.1480 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-F5,H6 final diameter,0.1707 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-F5,H7 final diameter,0.1242 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-SC-F5,T1 final diameter,0.2127 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-HIST-G4,F1 final diameter,0.1594 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-HIST-G4,F2 final diameter,0.1828 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-HIST-G4,F3 final diameter,0.1345 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-HIST-G4,F4 final diameter,0.2257 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
-GEM-HIST-G4,T1 final diameter,0.5445 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp
+instrument_id,check,target,measured,tolerance,environment,result,action,measured_hz,cents_error,tuner,measurement_date
+GEM-SC-F3,closed tonic frequency,174.61 Hz,,+/-15 cents prototype,"record temp F, humidity",,adjust cavity/window/vent before hole tuning,,,,
+GEM-SC-F3,fired centerline length,27.719 in,,+/-0.060 in,after glaze if glazed,,update shrinkage factor if systematic,,,,
+GEM-SC-F3,fired internal volume,2402 ml,,+/-5%,"water-fill, dry after",,retune window/vent model,,,,
+GEM-SC-C4,closed tonic frequency,261.63 Hz,,+/-15 cents prototype,"record temp F, humidity",,adjust cavity/window/vent before hole tuning,,,,
+GEM-SC-C4,fired centerline length,18.500 in,,+/-0.060 in,after glaze if glazed,,update shrinkage factor if systematic,,,,
+GEM-SC-C4,fired internal volume,650 ml,,+/-5%,"water-fill, dry after",,retune window/vent model,,,,
+GEM-SC-F4,closed tonic frequency,349.23 Hz,,+/-15 cents prototype,"record temp F, humidity",,adjust cavity/window/vent before hole tuning,,,,
+GEM-SC-F4,fired centerline length,13.859 in,,+/-0.060 in,after glaze if glazed,,update shrinkage factor if systematic,,,,
+GEM-SC-F4,fired internal volume,260 ml,,+/-5%,"water-fill, dry after",,retune window/vent model,,,,
+GEM-SC-C5,closed tonic frequency,523.25 Hz,,+/-15 cents prototype,"record temp F, humidity",,adjust cavity/window/vent before hole tuning,,,,
+GEM-SC-C5,fired centerline length,9.250 in,,+/-0.060 in,after glaze if glazed,,update shrinkage factor if systematic,,,,
+GEM-SC-C5,fired internal volume,72 ml,,+/-5%,"water-fill, dry after",,retune window/vent model,,,,
+GEM-SC-F5,closed tonic frequency,698.46 Hz,,+/-15 cents prototype,"record temp F, humidity",,adjust cavity/window/vent before hole tuning,,,,
+GEM-SC-F5,fired centerline length,6.930 in,,+/-0.060 in,after glaze if glazed,,update shrinkage factor if systematic,,,,
+GEM-SC-F5,fired internal volume,28 ml,,+/-5%,"water-fill, dry after",,retune window/vent model,,,,
+GEM-SC-F3,H1 final diameter,0.3409 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-F3,H2 final diameter,0.3936 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-F3,H3 final diameter,0.2857 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-F3,H4 final diameter,0.4914 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-F3,H5 final diameter,0.5723 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-F3,H6 final diameter,0.6692 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-F3,H7 final diameter,0.4727 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-F3,T1 final diameter,0.8530 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-C4,H1 final diameter,0.2347 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-C4,H2 final diameter,0.2699 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-C4,H3 final diameter,0.1977 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-C4,H4 final diameter,0.3345 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-C4,H5 final diameter,0.3875 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-C4,H6 final diameter,0.4504 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-C4,H7 final diameter,0.3222 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-C4,T1 final diameter,0.5687 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-F4,H1 final diameter,0.1780 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-F4,H2 final diameter,0.2043 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-F4,H3 final diameter,0.1502 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-F4,H4 final diameter,0.2525 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-F4,H5 final diameter,0.2919 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-F4,H6 final diameter,0.3386 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-F4,H7 final diameter,0.2434 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-F4,T1 final diameter,0.4258 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-C5,H1 final diameter,0.1208 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-C5,H2 final diameter,0.1383 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-C5,H3 final diameter,0.1021 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-C5,H4 final diameter,0.1703 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-C5,H5 final diameter,0.1963 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-C5,H6 final diameter,0.2270 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-C5,H7 final diameter,0.1643 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-C5,T1 final diameter,0.2840 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-F5,H1 final diameter,0.0917 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-F5,H2 final diameter,0.1048 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-F5,H3 final diameter,0.0777 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-F5,H4 final diameter,0.1287 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-F5,H5 final diameter,0.1480 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-F5,H6 final diameter,0.1707 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-F5,H7 final diameter,0.1242 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-SC-F5,T1 final diameter,0.2127 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-HIST-G4,F1 final diameter,0.1594 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-HIST-G4,F2 final diameter,0.1828 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-HIST-G4,F3 final diameter,0.1345 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-HIST-G4,F4 final diameter,0.2257 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-HIST-G4,T1 final diameter,0.5445 in,,"by pitch, do not oversize",after bisque and final tune,,open gradually or wax if sharp,,,,
+GEM-WOOD-C5,split-body cavity leak test,no bubbles at 2 minute low-pressure test,,pass/fail,shop bench before exterior shaping,,seal seam or remake glue-up,,,,
+GEM-WOOD-C5,measured internal volume,match C5 target within +/-5%,,+/-5%,water-fill after sealed glue-up,,update Helmholtz model and hole schedule,,,,
+GEM-WOOD-G4,split-body cavity leak test,no bubbles at 2 minute low-pressure test,,pass/fail,shop bench before exterior shaping,,seal seam or remake glue-up,,,,
+GEM-MATERIAL-COUPON,finish odor and mouth-contact screen,no tacky odor or surface shedding after cure,,pass/fail,after full cure at shop temperature,,reject finish or move finish away from mouth-contact areas,,,,
+GEM-MATERIAL-COUPON,labium edge retention,coupon edge stays crisp after finish/wet-dry handling,,visual and caliper check,after finish and wipe-down,,change material or mask voicing edges,,,,
