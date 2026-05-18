@@ -39,3 +39,22 @@ These are not verifier failures; they are shop measurements needed after first p
 - Natural-horn blank measured volume and final hole diameters.
 - CNC wood split-body leak test result.
 - Measured Hz and cents error for each prototype.
+
+## Round 30 V5 Explorer Readiness Check
+
+Additional validation run on 2026-05-18:
+
+```bash
+jq . capstone-manifest.json
+test -f explorer.html
+git diff --check
+python3 ${CODEX_HOME:-$HOME/.codex}/skills/instrument-maker/scripts/validate_visual_authority.py visual-output-register.csv
+python3 ${CODEX_HOME:-$HOME/.codex}/skills/instrument-maker/scripts/validate_acoustic_law.py family-spec.csv
+```
+
+Result: clean. The visual register validates with 11 checked rows and no
+warnings. The acoustic-law validator checks all 6 family-spec rows and reports
+no warnings. The acoustic-law entries intentionally use `empirical_only` with
+`governing_model=helmholtz_vessel_flute` because this gemshorn packet is a
+closed vessel / duct-flute system whose production dimensions remain
+measurement-gated.

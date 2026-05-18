@@ -3,7 +3,7 @@
 Generated: 2026-05-02
 v4 refresh: 2026-05-06
 
-Packet root: `/mnt/c/Users/Tony/Documents/GitHub/gemshorn`
+Packet root: repository root
 
 ## Scope
 
@@ -48,6 +48,24 @@ r = (0.85*G + sqrt((0.85*G)^2 + 4*pi*G*wall)) / (2*pi)
 ```
 
 The body dimensions use geometric scaling from the soprano C5 prototype. That keeps volume, window area, hole area, and neck length in the same acoustic family. Final pitch still requires empirical tuning because ceramic shrinkage, glaze, fipple behavior, hole chamfer, and actual cavity volume dominate the last cents.
+
+## Vessel And Flue Assumptions
+
+- Governing acoustic assumption: closed vessel / Helmholtz resonator excited by
+  a duct-flute fipple, not an open-open bore, stopped pipe, NAF, reed pipe, or
+  free-reed coupled pipe.
+- End condition: sealed pointed tip, closed cavity, wide-end block/fipple,
+  labium window, and tone holes that add incremental conductance when opened.
+- Dimension provenance: current family dimensions are workbook/model planning
+  values. They are `measurement_required` for production molds until the clay
+  body shrinkage, fired water-fill volume, leak state, and tuner results are
+  measured.
+- Flue authority: windway height, labium setback, window size, and block fit
+  are first-pass shop targets. Final voicing must be set by physical fipple
+  response, onset, stability, and cents error, not by generated previews.
+- Correction boundary: do not apply open-open flute, NAF K2, reed, or
+  stopped-pipe empirical corrections to this packet unless a future measured
+  gemshorn-specific correction is added with evidence.
 
 ## Slip-Cast Family
 
