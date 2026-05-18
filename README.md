@@ -8,6 +8,18 @@ This repo is the build documentation for an authentic/historically informed gems
 
 The repo deliberately separates the strict historical path from modern production paths. Natural horn is the authenticity reference; slip-cast ceramic is the repeatable family path; CNC-routed split wood is a modern prototype path for quick iteration and teaching.
 
+## Status
+
+Current status: V5 explorer readiness packet on top of a v4 build packet baseline.
+Fabrication authority remains measurement-gated: `gemshorn-design-table.xlsx`,
+`family-spec.csv`, `cad/*.scad`, and the reviewed shop drawings are planning
+authority only until fired shrinkage, water-fill volume, fipple response, leak
+tests, and tuner results are logged in `validation.csv`.
+
+Generated previews, site renders, print-packet images, and SVG review plates do
+not create fabrication authority by themselves. See
+`visual-output-register.csv` for the authority chain.
+
 ## Quick Start
 
 1. Read `design.md`, `build-methods.md`, and `authenticity-notes.md`.

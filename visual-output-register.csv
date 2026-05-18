@@ -1,0 +1,12 @@
+artifact_id,path,artifact_kind,role,authority,derived_from,dimension_claim,notes
+DT-001,gemshorn-design-table.xlsx,design_table,design_table,fabrication,,derived_from_authority,Parametric workbook is the current planning authority; production release still requires measured shrinkage volume leak fipple and tuner validation.
+CAD-001,cad/gemshorn_family.scad,cad,fabrication_geometry,fabrication,DT-001,derived_from_authority,OpenSCAD master-shape starter for slip-cast family; verify in CAD and against measured shrinkage before mold production.
+CAD-002,cad/gemshorn_split_wood_body.scad,cad,cnc_reference,fabrication,DT-001,derived_from_authority,OpenSCAD split-wood prototype starter; CAM and leak validation required before cutting.
+SVG-001,drawings/gemshorn-family-scale.svg,svg_preview,derived_preview,derived_preview,DT-001,derived_from_authority,Review plate only; use workbook/CAD for dimensions.
+SVG-002,drawings/gemshorn-body-section.svg,svg_preview,derived_preview,derived_preview,DT-001;CAD-001,derived_from_authority,Review plate showing closed vessel and wall/cavity relationships; not a toolpath.
+SVG-003,drawings/hole-layout-template.svg,svg_preview,derived_preview,derived_preview,DT-001,derived_from_authority,Hole layout review template; final hole sizes are tuned physically.
+SVG-004,drawings/gemshorn-voicing-detail.svg,svg_preview,derived_preview,derived_preview,DT-001;CAD-001,derived_from_authority,Fipple/window review detail; final voicing is empirical.
+SVG-005,drawings/gemshorn-mold-schematic.svg,svg_preview,derived_preview,derived_preview,DT-001;CAD-001,derived_from_authority,Mold-planning schematic; production mold authority requires verified CAD and shrinkage.
+SVG-006,drawings/gemshorn-cnc-wood-body.svg,svg_preview,derived_preview,derived_preview,CAD-002,derived_from_authority,CNC wood-body review plate; CAM is not authorized from SVG alone.
+SVG-007,drawings/visual-bom-plate.svg,svg_preview,visual_bom,derived_preview,DT-001,derived_from_authority,Visual BOM communication plate; not fabrication authority.
+PDF-001,print-packet.pdf,drawing_pdf,dimensioned_drawing,derived_preview,DT-001;CAD-001;CAD-002,derived_from_authority,Printable review packet derived from current packet sources; check register before treating any image as authority.

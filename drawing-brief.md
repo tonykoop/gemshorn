@@ -54,3 +54,8 @@ Generated: 2026-05-02
 The SVGs are shop-reference drawings and review plates. Before making production molds, convert the dimensions into SolidWorks, OpenSCAD/STL, or another CAD system and verify mold release.
 
 For the CNC wood path, verify `cad/gemshorn_split_wood_body.scad` in CAD/CAM before cutting. The SVG is a datum and operation drawing, not a toolpath source.
+
+Visual authority is tracked in `visual-output-register.csv`. SVG review plates,
+site previews, print-packet images, and future generated concept images are not
+fabrication authority unless they are derived from the named design table, CAD,
+DXF, measured template, or reviewed drawing authority.
