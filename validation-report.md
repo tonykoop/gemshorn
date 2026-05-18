@@ -48,8 +48,8 @@ Additional validation run on 2026-05-18:
 jq . capstone-manifest.json
 test -f explorer.html
 git diff --check
-python3 /home/tony/.codex/skills/instrument-maker/scripts/validate_visual_authority.py visual-output-register.csv
-python3 /home/tony/.codex/skills/instrument-maker/scripts/validate_acoustic_law.py family-spec.csv
+python3 ${CODEX_HOME:-$HOME/.codex}/skills/instrument-maker/scripts/validate_visual_authority.py visual-output-register.csv
+python3 ${CODEX_HOME:-$HOME/.codex}/skills/instrument-maker/scripts/validate_acoustic_law.py family-spec.csv
 ```
 
 Result: clean. The visual register validates with 11 checked rows and no
