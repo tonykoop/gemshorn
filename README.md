@@ -62,7 +62,7 @@ not create fabrication authority by themselves. See
 | images/ | Placeholder folder and naming rules for future real build photos. |
 | data/ | Material-test matrix and future measured-data tables. |
 | wolfram-starter.wl | Lightweight physics starter. |
-| wolfram/instrument-model.wl | v4.2 Wolfram model package. |
+| wolfram/gemshorn-wolfram-model.wl | v4.2 Wolfram model package. |
 | site/index.html | Static build-log site. |
 | print-packet.html / print-packet.pdf | Shop packet for browser or print use. |
 | capstone-deck.md / capstone-deck.pptx | Capstone orientation deck. |
@@ -78,7 +78,7 @@ Start with a wood or ceramic `GEM-SC-C5` because it is small enough to make quic
 - BOM/sourcing/cut/validation: `bom.csv`, `sourcing.csv`, `cut-list.csv`, `validation.csv`
 - Drawings: `drawings/*.svg`
 - CNC plan: `cnc/cnc-plan.json`, `cnc/operations.csv`, `cnc/setup-sheet.md`
-- Wolfram package: `wolfram/instrument-model.wl`
+- Wolfram package: `wolfram/gemshorn-wolfram-model.wl`
 - Risks: `risks.md`
 - Photo pipeline: `photo-shotlist.md`
 - Build-log site: `site/index.html`
