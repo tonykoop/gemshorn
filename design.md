@@ -28,7 +28,7 @@ This packet gives you a historically informed gemshorn build path and a practica
 - `material-options.md` - candidate materials and safety/finish gates.
 - `risks.md`, `photo-shotlist.md`, `site/index.html` - v4 risk, photo, and build-log-site deliverables.
 - `cnc/cnc-plan.json`, `cnc/operations.csv`, `cnc/setup-sheet.md`, `cnc/wood-body-cnc-plan.md` - CNC/router planning deliverables.
-- `wolfram/instrument-model.wl` - v4.2 Wolfram package.
+- `wolfram/gemshorn-wolfram-model.wl` - v4.2 Wolfram package.
 - `wolfram-starter.wl` - notebook-ready physics starter.
 
 ## Acoustic Model

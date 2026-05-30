@@ -69,7 +69,7 @@ This packet gives you a historically informed gemshorn build path and a practica
 - `material-options.md` - candidate materials and safety/finish gates.
 - `risks.md`, `photo-shotlist.md`, `site/index.html` - v4 risk, photo, and build-log-site deliverables.
 - `cnc/cnc-plan.json`, `cnc/operations.csv`, `cnc/setup-sheet.md`, `cnc/wood-body-cnc-plan.md` - CNC/router planning deliverables.
-- `wolfram/instrument-model.wl` - v4.2 Wolfram package.
+- `wolfram/gemshorn-wolfram-model.wl` - v4.2 Wolfram package.
 - `wolfram-starter.wl` - notebook-ready physics starter.
 
 ## Acoustic Model
@@ -614,7 +614,7 @@ The repo deliberately separates the strict historical path from modern productio
 | images/ | Placeholder folder and naming rules for future real build photos. |
 | data/ | Material-test matrix and future measured-data tables. |
 | wolfram-starter.wl | Lightweight physics starter. |
-| wolfram/instrument-model.wl | v4.2 Wolfram model package. |
+| wolfram/gemshorn-wolfram-model.wl | v4.2 Wolfram model package. |
 | site/index.html | Static build-log site. |
 | print-packet.html / print-packet.pdf | Shop packet for browser or print use. |
 | capstone-deck.md / capstone-deck.pptx | Capstone orientation deck. |
@@ -630,7 +630,7 @@ Start with a wood or ceramic `GEM-SC-C5` because it is small enough to make quic
 - BOM/sourcing/cut/validation: `bom.csv`, `sourcing.csv`, `cut-list.csv`, `validation.csv`
 - Drawings: `drawings/*.svg`
 - CNC plan: `cnc/cnc-plan.json`, `cnc/operations.csv`, `cnc/setup-sheet.md`
-- Wolfram package: `wolfram/instrument-model.wl`
+- Wolfram package: `wolfram/gemshorn-wolfram-model.wl`
 - Risks: `risks.md`
 - Photo pipeline: `photo-shotlist.md`
 - Build-log site: `site/index.html`
