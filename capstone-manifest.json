@@ -66,5 +66,23 @@
     "All paths in this manifest are repository-relative.",
     "Generated previews and SVG review plates are non-authoritative unless the visual-output register traces them to design-table/CAD authority.",
     "Use measured validation data before promoting this packet to production mold or full V5 build-packet status."
-  ]
+  ],
+  "engineering": {
+    "wolfram": [
+      {
+        "source_file": "woodwind/gemshorn/gemshorn-starter.wl",
+        "cloud_path": "Musical_Instruments/woodwinds/gemshorn/gemshorn-starter.wl",
+        "cloud_url": "https://www.wolframcloud.com/obj/wrfcoin/Musical_Instruments/woodwinds/gemshorn/gemshorn-starter.wl",
+        "permission": "Public-Execute",
+        "kind": "acoustics-starter"
+      },
+      {
+        "source_file": "woodwind/gemshorn/wolfram/gemshorn-wolfram-model.wl",
+        "cloud_path": "Musical_Instruments/woodwinds/gemshorn/gemshorn-wolfram-model.wl",
+        "cloud_url": "https://www.wolframcloud.com/obj/wrfcoin/Musical_Instruments/woodwinds/gemshorn/gemshorn-wolfram-model.wl",
+        "permission": "Public-Execute",
+        "kind": "geometry-model"
+      }
+    ]
+  }
 }
