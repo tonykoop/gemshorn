@@ -10,6 +10,8 @@ The repo deliberately separates the strict historical path from modern productio
 
 ## Status
 
+**Status:** L2 V5 build-packet candidate
+
 Current status: V5 explorer readiness packet on top of a v4 build packet baseline.
 Fabrication authority remains measurement-gated: `gemshorn-design-table.xlsx`,
 `family-spec.csv`, `cad/*.scad`, and the reviewed shop drawings are planning
@@ -61,6 +63,7 @@ not create fabrication authority by themselves. See
 | cnc/ | CNC operation plan, setup sheet, operations table, and wood-body CNC notes. |
 | images/ | Placeholder folder and naming rules for future real build photos. |
 | data/ | Material-test matrix and future measured-data tables. |
+| evolution/ | Stage 0 evolution-pipeline intake (master manifest, design-intent, revisions). Gate A not yet run. |
 | wolfram-starter.wl | Lightweight physics starter. |
 | wolfram/gemshorn-wolfram-model.wl | v4.2 Wolfram model package. |
 | site/index.html | Static build-log site. |
