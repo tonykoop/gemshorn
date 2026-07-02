@@ -10,3 +10,4 @@ SVG-005,drawings/gemshorn-mold-schematic.svg,svg_preview,derived_preview,derived
 SVG-006,drawings/gemshorn-cnc-wood-body.svg,svg_preview,derived_preview,derived_preview,CAD-002,derived_from_authority,CNC wood-body review plate; CAM is not authorized from SVG alone.
 SVG-007,drawings/visual-bom-plate.svg,svg_preview,visual_bom,derived_preview,DT-001,derived_from_authority,Visual BOM communication plate; not fabrication authority.
 PDF-001,print-packet.pdf,drawing_pdf,dimensioned_drawing,derived_preview,DT-001;CAD-001;CAD-002,derived_from_authority,Printable review packet derived from current packet sources; check register before treating any image as authority.
+WL-001,wolfram/gemshorn-wolfram-model.wl,wolfram_source,analysis_source,derived_preview,DT-001,source_only,Wolfram model package; source-only (not executed). L2 evidence — no fabrication authority.

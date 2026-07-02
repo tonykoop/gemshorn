@@ -1,0 +1,42 @@
+{
+  "product": "gemshorn",
+  "pipeline": "studiopipeline:evolution-pipeline",
+  "stage": "0-intake",
+  "master_revision": "rev-A (pre-commit intake, 2026-07-01)",
+  "generated": "2026-07-01",
+  "cad_masters": [
+    {
+      "path": "cad/gemshorn_family.scad",
+      "format": "openscad-source",
+      "sha256": "3e44b4512fa53c2f4b269b9f4acf376a463cc325ed00b7db3be1859a602b5fad",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "Slip-cast family master-shape starter; renders clean in OpenSCAD. Pending measured shrinkage/volume/leak/fipple validation."
+    },
+    {
+      "path": "cad/gemshorn_split_wood_body.scad",
+      "format": "openscad-source",
+      "sha256": "8c15bf96ff18e572031fd1db3fbd55b948c6880186c8065aae35abfa2fd0eb47",
+      "authority": "pending_measurement",
+      "lossy": false,
+      "notes": "CNC split-wood prototype master-shape starter; module-scoped components."
+    },
+    {
+      "path": "wolfram/gemshorn-wolfram-model.wl",
+      "format": "wolfram-source",
+      "sha256": "d6dd28be0e1c810707b7ac961d0da4b71071ee9c912e32d034347faf53bf01ec",
+      "authority": "derived_preview",
+      "lossy": false,
+      "notes": "Source-only (not executed); L2 evidence."
+    },
+    {
+      "path": "gemshorn-design-table.xlsx",
+      "format": "design-table",
+      "sha256": "d433076e905ae23f0d28698743f3ea13379f254da5a784da288bae011168262b",
+      "authority": "fabrication",
+      "lossy": false,
+      "notes": "Parametric workbook; current planning authority. Production release still measurement-gated (shrinkage, volume, leak, fipple, tuner)."
+    }
+  ],
+  "notes": "OpenSCAD source + design table are the current masters; no STEP export yet (SolidWorks STEP export is Windows-side work, out of scope for this intake pass). Gate A (Alpha workspace compile) not yet run."
+}
